@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.head{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 3%;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(23, 21, 21);
+    padding: 2%;
+    margin-top: 15%;
+}
+p{
+    padding: 2%;
+}
+.donate-btn{
+    margin: 2%;
+    padding: 10px 12px;
+    background-color:#FF5959;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.half-width{
+    width: 50%;
+}
+.half-width div img{
+    width: 100%;
+    
+}
+#img1{
+    position: relative;
+    top: 75px;
+    z-index: 10;
+}
+#img2{
+   position: relative;
+   top: -120px;
+   padding-right: 20px;
+   z-index: 1;
+}
+#img3{
+    position: relative;
+    top: -400px;
+}
+.donate-section{
+    text-align: center;
+}
+
+span{
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 70px;
+    margin-left: 1%;
+    border-radius: 5Px;
+    padding-top: 3%;
+    background:linear-gradient(tomato orange)50%;
+    background-color: #FAFAFA;
+}
+#color{
+    background:#FFEEEE;
+    color:  #FF5959;
+    border: 2px solid #FF5959;
+}
+.donate{
+    padding-top: 4%;
+}
+.donate input{
+    padding: 5px;
+    border: none;
+}
+hr{
+    width: 50%;
+    margin-left: 25%;
+    border: 1px solid #DADADA;
+}
+
+.donation-plan{
+    text-align: center;
+}
+.our-plan{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.our-plan img{
+    width: 15%;
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+.our-plan h2{
+    padding-bottom: 6%;
+}
+.food{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 2%;
+    margin: 2%;
+}
+.shelter{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 2%;
+    margin: 2%;
+}
+.education{
+    background: #FFF4D6;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 2%;
+}
+.our-plan2{
+    margin-top: 15%;
+    display: flex;
+    width: 80%;
+    margin-left: 10%; 
+    margin-bottom: 5%;
+}
+.our-plan2 img{
+    margin-left: 10%;
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+
+.our-plan3{
+    margin-top: 15%;
+    display: flex;
+    width: 80%;
+    margin-left: 10%; 
+    margin-bottom: 5%;
+}
+
+.our-plan3 img{
+    margin-right: 10%;
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+.my-update{
+    text-align: center;
+}
+.my-update form{
+    margin-left: 20%;
+    padding-top: 10%;
+    margin-bottom: 10%;
+    width: 809px;
+    height: 200px;
+    left: 316px;
+    top: 3442px;
+    background: #FFF4D6;
+}
+
+.my-update form input{
+    padding-left: 8px;
+    padding-right: 2px;
+    border: none;
+    width: 275px;
+    height: 48px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+}
+.my-update form button{
+    border: none;
+    width: 157px;
+    height: 48px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+}
+.subscribe{
+    width: 72px;
+    height: 20px;
+    left: 822px;
+    top: 3532px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+footer{
+    background: #0B0D17;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;   
+}
+footer h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
+    padding-bottom: 5px;
+}
